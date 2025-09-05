@@ -1,0 +1,19 @@
+
+# Claves y config
+Keys.plist
+FoodDelivery App/Secrets.xcconfig
+Secrets/
+Secrets.xcconfig
+*/Secrets.xcconfig
+
+# Xcode / Derived
+DerivedData/
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# SwiftPM
+.build/
+
+# CocoaPods
+Pods/
