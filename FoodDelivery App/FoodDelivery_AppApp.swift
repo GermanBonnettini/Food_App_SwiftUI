@@ -10,10 +10,14 @@ import Supabase
 
 @main
 struct FoodDelivery_AppApp: App {
+    
+    var order = Order()
+    
     var body: some Scene {
         WindowGroup {
             AppetizerTabView()  
                 .environment(\.supabase, supabase)
+                .environmentObject(order)
         }
     }
 }

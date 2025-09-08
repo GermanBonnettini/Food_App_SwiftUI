@@ -19,8 +19,8 @@ struct AppetizerCell: View {
                 .frame(width: 100, height: 100)
                 .cornerRadius(10)
             
-            VStack (alignment: .leading, spacing: 5){
-                Spacer()
+            VStack (alignment: .leading, spacing: 10){
+//                Spacer()
                 Text (appetizer.name)
                     .font(.title2)
                     .fontWeight(.medium)
@@ -28,7 +28,7 @@ struct AppetizerCell: View {
                 Text ("$\(appetizer.price, specifier: "%.2f")")
                     .font(.body)
                     .foregroundStyle(.secondary)
-                Spacer()
+//                Spacer()
             }
             .padding()
         }

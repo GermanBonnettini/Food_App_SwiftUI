@@ -34,7 +34,7 @@ struct AppetizerListView: View {
             .onAppear {
                 loadAppetizers()
             }
-            .blur(radius: isShowingDetails ? 20 : 0) // 👈 BLUR dinámico
+            .blur(radius: isShowingDetails ? 20 : 0) //  BLUR dinámico
             
             // Overlay de detalle
             if isShowingDetails, let selected = selectedAppetizer {
