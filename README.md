@@ -1,74 +1,61 @@
-📱 Appetizers – Food App (SwiftUI + Supabase)
+# 📱 Appetizers – Food App *(SwiftUI + Supabase)*  
 
-
-
-
-
-
-
-
-Aplicación de comida y aperitivos desarrollada en SwiftUI, con integración de backend en Supabase y manejo seguro de credenciales mediante Secrets.xcconfig.
-Este proyecto forma parte de mi portfolio en iOS Development.
-
-
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Swift](https://img.shields.io/badge/Swift-6.2-orange?logo=swift&logoColor=white)
+![Platform](https://img.shields.io/badge/platform-iOS%2017+-lightgrey?logo=apple)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ✨ Features
 
-🎨 Interfaz moderna con SwiftUI
+🎨 Modern interface built with SwiftUI
 
-🔄 Consumo de APIs alojadas en Supabase
+🔄 API consumption with data hosted on Supabase
 
-🔐 Manejo de seguridad con Secrets.xcconfig para API Keys y credenciales
+🔐 Secure key and credential management with Secrets.xcconfig
 
-📦 Arquitectura desacoplada con MVVM
+📦 Clean, decoupled architecture following MVVM
 
-📱 Compatible con iOS 17+
+📱 Fully compatible with iOS 17+
 
-🛠️ Tecnologías usadas
+🛠️ Tech Stack
 
-Lenguaje: Swift 6.2
+Language: Swift 6.2
 
-UI: SwiftUI
+UI Framework: SwiftUI
 
-Backend: Supabase
- (PostgreSQL + Auth + Storage)
+Backend: Supabase (PostgreSQL + Auth + Storage)
 
-Persistencia: @State, @Observable, y manejo de estado reactivo
+State Management: @State, @Observable, and reactive bindings
 
-Seguridad: Secrets.xcconfig
- para ocultar claves sensibles
+Security: Secrets.xcconfig (sensitive keys excluded from version control)
 
 IDE: Xcode 26
 
+🚀 Installation & Setup
 
-🚀 Instalación y ejecución
-
-Cloná el repositorio:
+Clone the repository:
 
 git clone https://github.com/GermanBonnettini/Food_App_SwiftUI.git
 cd Food_App_SwiftUI
 
 
-Abrí el proyecto en Xcode 26.
+Open the project in Xcode 26.
 
-Configurá tu archivo Secrets.xcconfig con tus claves de Supabase:
+Configure your Secrets.xcconfig file with your Supabase credentials:
 
 SUPABASE_URL = https://<your-project>.supabase.co
 SUPABASE_ANON_KEY = <your-anon-key>
 
 
-Seleccioná un simulador o dispositivo y ejecutá con ⌘R.
+Select a simulator or a physical device and run with ⌘R.
 
+🔐 Security
 
+Private keys are never pushed to the repository
 
-🔐 Seguridad
+All sensitive values are managed via Secrets.xcconfig, which is listed in .gitignore
 
-Las claves privadas nunca se suben al repositorio.
-
-Se gestionan mediante Secrets.xcconfig, que está incluido en .gitignore.
-
-De esta forma se mantiene el proyecto seguro y portable.
-
+This ensures the project stays safe, portable, and production-ready
 
 
 📸 Screenshots
@@ -77,7 +64,8 @@ De esta forma se mantiene el proyecto seguro y portable.
 
 📜 License
 
-Este proyecto está disponible bajo la licencia MIT. Mirá el archivo LICENSE
- para más detalles.
+This project is available under the MIT License.
+See the LICENSE
+ file for details.
 
 👉 Repo: Food_App_SwiftUI
