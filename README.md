@@ -62,6 +62,14 @@ This ensures the project stays safe, portable, and production-ready
 
 <img src="Screenshots/Home.png" width="250"> <img src="Screenshots/Detail.png" width="250"> <img src="Screenshots/Oreders.png" width="250"> <img src="Screenshots/Profile.png" width="250">
 
+
+## 🧑‍💻 Author
+
+**German Bonnettini**  
+iOS & Game Developer  
+🎮 Creating interactive and visually immersive mobile experiences.  
+📍 [Matecode Studio](https://matecodestudio.io/)
+
 📜 License
 
 This project is available under the MIT License.
