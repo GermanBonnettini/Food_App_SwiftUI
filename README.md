@@ -80,7 +80,7 @@ Select a simulator or physical device and press ⌘R.
 
 |                    🏠 Home                   |                    🍔 Detail                   |                   🛍️ Orders                   |                    👤 Profile                   |
 | :------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :---------------------------------------------: |
-| <img src="Screenshots/Home.png" width="250"> | <img src="Screenshots/Detail.png" width="250"> | <img src="Screenshots/Orders.png" width="250"> | <img src="Screenshots/Profile.png" width="250"> |
+| <img src="Screenshots/Home.png" width="250"> | <img src="Screenshots/Detail.png" width="250"> | <img src="Screenshots/Oreders.png" width="250"> | <img src="Screenshots/Profile.png" width="250"> |
 
 ---
 
