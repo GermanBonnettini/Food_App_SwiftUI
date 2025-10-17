@@ -2,66 +2,87 @@
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Swift](https://img.shields.io/badge/Swift-6.2-orange?logo=swift&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-iOS%2017+-lightgrey?logo=apple)
+![iOS](https://img.shields.io/badge/iOS-17+-lightgrey?logo=apple)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-✨ Features
+A modern **food browsing app** built entirely in **SwiftUI**, powered by **Supabase** as backend.  
+It offers a clean, modular architecture and a sleek interface optimized for **iOS 17+**.
 
-🎨 Modern interface built with SwiftUI
+---
 
-🔄 API consumption with data hosted on Supabase
+## ✨ Features
 
-🔐 Secure key and credential management with Secrets.xcconfig
+- 🍽️ **Beautiful SwiftUI Interface**  
+  - Fully responsive and visually appealing layout.  
+  - Adaptive to iPhone and iPad.  
 
-📦 Clean, decoupled architecture following MVVM
+- 🔄 **API Integration via Supabase**  
+  - Fetch and manage real-time data from Supabase.  
+  - Includes Auth, Database, and Storage layers.  
 
-📱 Fully compatible with iOS 17+
+- 🔐 **Secure Credentials Management**  
+  - Sensitive keys stored in `Secrets.xcconfig`.  
+  - File excluded from version control.  
 
-🛠️ Tech Stack
+- 🧱 **Clean Architecture (MVVM)**  
+  - Clear separation between Views, Models, and ViewModels.  
+  - Scalable structure ready for production.  
 
-Language: Swift 6.2
+- 📲 **iOS 17+ Compatibility**  
+  - Built using the latest SDKs and Swift 6.2 features.  
 
-UI Framework: SwiftUI
+---
 
-Backend: Supabase (PostgreSQL + Auth + Storage)
+## 🛠️ Tech Stack
 
-State Management: @State, @Observable, and reactive bindings
+| Category | Technology |
+|-----------|-------------|
+| 🧩 Language | Swift 6.2 |
+| 🎨 UI Framework | SwiftUI |
+| ☁️ Backend | Supabase (PostgreSQL + Auth + Storage) |
+| 🧱 Architecture | MVVM |
+| 🔒 Security | Secrets.xcconfig (excluded from VCS) |
+| 🧰 IDE | Xcode 26 |
 
-Security: Secrets.xcconfig (sensitive keys excluded from version control)
+---
 
-IDE: Xcode 26
+## 🚀 Installation & Setup
 
-🚀 Installation & Setup
+1. **Clone the repository:**
 
-Clone the repository:
-
-git clone https://github.com/GermanBonnettini/Food_App_SwiftUI.git
-cd Food_App_SwiftUI
-
-
-Open the project in Xcode 26.
+   ```bash
+   git clone https://github.com/GermanBonnettini/Food_App_SwiftUI.git
+   cd Food_App_SwiftUI
+Open the project in Xcode 26
 
 Configure your Secrets.xcconfig file with your Supabase credentials:
 
+bash
+Copy code
 SUPABASE_URL = https://<your-project>.supabase.co
 SUPABASE_ANON_KEY = <your-anon-key>
+Run the app
+Select a simulator or physical device and press ⌘R.
 
+---
 
-Select a simulator or a physical device and run with ⌘R.
+##  🔐 Security
 
-🔐 Security
+🔑 Private keys are never pushed to the repository.
 
-Private keys are never pushed to the repository
+🧩 All sensitive data is handled via Secrets.xcconfig.
 
-All sensitive values are managed via Secrets.xcconfig, which is listed in .gitignore
+🧾 The file is listed in .gitignore to ensure safety and portability.
 
-This ensures the project stays safe, portable, and production-ready
+🛡️ The app remains secure, modular, and production-ready.
 
+---
 
-📸 Screenshots
+|                    🏠 Home                   |                    🍔 Detail                   |                   🛍️ Orders                   |                    👤 Profile                   |
+| :------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :---------------------------------------------: |
+| <img src="Screenshots/Home.png" width="250"> | <img src="Screenshots/Detail.png" width="250"> | <img src="Screenshots/Orders.png" width="250"> | <img src="Screenshots/Profile.png" width="250"> |
 
-<img src="Screenshots/Home.png" width="250"> <img src="Screenshots/Detail.png" width="250"> <img src="Screenshots/Oreders.png" width="250"> <img src="Screenshots/Profile.png" width="250">
-
+---
 
 ## 🧑‍💻 Author
 
@@ -70,10 +91,22 @@ iOS & Game Developer
 🎮 Creating interactive and visually immersive mobile experiences.  
 📍 [Matecode Studio](https://matecodestudio.io/)
 
-📜 License
+---
 
+##  🚀 Roadmap
+
+📦 Add Favorites & Search filtering
+
+☁️ Implement Supabase Realtime for live menu updates
+
+🔒 Integrate user authentication and sessions
+
+💳 Add payment simulation for mock checkout flow
+
+🎨 Improve UI with animated transitions and parallax effects
+
+---
+
+##  🏷️ License
 This project is available under the MIT License.
-See the LICENSE
- file for details.
-
-👉 Repo: Food_App_SwiftUI
+You are free to use, modify, and learn from it — attribution to **German Bonnettini**
